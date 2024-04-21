@@ -29,6 +29,9 @@ body {
         margin-right: auto;
     }
     /* =======HEADER======= */
+    .page-header{
+    border-bottom: 1px solid #e7e9fc;
+    }
     .header-container{
         display: flex;
         justify-content: space-between;
@@ -50,6 +53,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .logo-part {
@@ -129,8 +133,8 @@ color: #404bbf;
         height: 56px;
         display: block;
         margin: 0 auto;
-       
-        
+        border: none;
+        border-radius: 4px;     
         
 }
 .button-top:hover,
@@ -138,6 +142,9 @@ color: #404bbf;
     background: #404bbf;
 }
 /* =======BENEFITS======= */
+.benefits {
+    padding: 120px 0;
+}
 
 .benefits-list {
 display: flex;
@@ -153,6 +160,7 @@ justify-content: center;
         color: #2e2f42;
         padding-top: 142px;
         padding-bottom: 8px;
+        margin-bottom: 8px;
        
 }
 
@@ -166,7 +174,7 @@ justify-content: center;
 /* =======OUR TEAM======= */
 .team-section {
     background: #f4f4fd;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-list{
@@ -174,7 +182,9 @@ justify-content: center;
     gap: 24px;
     justify-content: center;
 }
-
+.name-text-container{
+    padding: 32px 0;
+}
 .team-section-title {
         font-size: 36px;
         line-height: 1.11111;
@@ -260,6 +270,12 @@ border-radius: 0 0 4px 4px;
         color: #434455;
         text-align: center;
 }
+.name-app-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 /* =======FOOTER======== */
 .page-footer {
     background: #2e2f42;
@@ -275,6 +291,8 @@ border-radius: 0 0 4px 4px;
         color: #4d5ae5;
         font-weight: 700;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
        
 }
 
