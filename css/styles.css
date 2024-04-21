@@ -101,10 +101,8 @@ color: #404bbf;
     margin-right: auto;
 }
 .hero-container {
-    padding-top: 197px;
-    padding-left: 505px;
-    padding-right: 506px;
-    padding-bottom: 166px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -113,9 +111,10 @@ color: #404bbf;
         letter-spacing: 0.02em;
         color: #fff;
         text-align: center;
-       max-width: 532px;
+       max-width: 496px;
        font-weight: 700px;
        align-content: center;
+       margin: 0 auto;
        margin-bottom: 48px;
 }
 
